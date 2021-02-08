@@ -1,2 +1,19 @@
 # hilda
-A static site generator that uses Nunjucks as template language
+
+A static site generator that uses Nunjucks as template language.
+
+## Installation
+
+0. Prerequisites: NPM and a Unix-like shell (on Windows e. g. Git BASH) 
+
+1. Get the code: `npx degit destacks/hilda my-project-name`
+
+2. Install: `npm install`
+
+## Usage
+
+- build and run dev server: `npm run start`
+
+- just build: `npm run build`
+
+- just run dev server: `npm run dev`

@@ -1,0 +1,7 @@
+{
+    "page": {
+        "title": "Home",
+        "path": "/"
+    },
+    "greeting": "Hello, world!"
+}

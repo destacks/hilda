@@ -1,0 +1,13 @@
+{% if page.path == "/" %}
+    <a href="./">Home</a>
+    |
+    <a href="about/">About</a>
+    |
+    <a href="blog/">Blog</a>
+{% else %}
+    <a href="../">Home</a>
+    |
+    <a href="{% if page.path == 'about/' %}./{% else %}../about/{% endif %}">About</a>
+    |
+    <a href="{% if page.path == 'blog/' %}./{% else %}../blog/{% endif %}">Blog</a>
+{% endif %}
