@@ -1,7 +1,7 @@
 {
-  "name": "@destacks/starter-t1-v1",
+  "name": "@destacks/hilda",
   "version": "0.1.0",
-  "description": "Destacks starter, type 1, variant 1",
+  "description": "A static site generator that uses Nunjucks as template language",
   "scripts": {
     "build": "gulp build",
     "dev": "node scripts/dev.js",
@@ -11,18 +11,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/destacks/starter.git"
+    "url": "git+https://github.com/destacks/hilda.git"
   },
   "keywords": [
-    "starter",
+    "hilda",
+    "static site generator",
+    "SSG",
+    "Nunjucks",
     "template"
   ],
   "author": "Alexis Michaltsis",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/destacks/starter/issues"
+    "url": "https://github.com/destacks/hilda/issues"
   },
-  "homepage": "https://github.com/destacks/starter/tree/main/t1/v1#readme",
+  "homepage": "https://github.com/destacks/hilda/tree/main/#readme",
   "devDependencies": {
     "browserify": "^17.0.0",
     "del": "^6.0.0",
