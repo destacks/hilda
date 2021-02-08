@@ -8,7 +8,9 @@ A static site generator that uses Nunjucks as template language.
 
 1. Get the code: `npx degit destacks/hilda#main my-project-name`
 
-2. Install: `npm install`
+2. Go to folder: `cd my-project-name`
+
+3. Install: `npm install`
 
 ## Usage
 
